@@ -1,13 +1,21 @@
-//código a ser reescrito
+/* //código a ser reescrito
 
-if(nome === "José"){
-	console.log("Oi, Zé!");
+if (nome === 'José') {
+  console.log('Oi, Zé!')
 } else {
-	console.log("Olá, "+nome);
+  console.log('Olá, ' + nome)
 }
 
-if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
+if (idade >= 18) {
+  console.log('pode tirar carteira de motorista!')
 } else {
-	console.log("Ainda não pode tirar carteira de motorista");
-}
+  console.log('Ainda não pode tirar carteira de motorista')
+} */
+
+const nome = 'Adão'
+const idade = 16
+
+nome === 'José' ? console.log('Oi, Zé!') : console.log('Olá, ' + nome)
+idade >= 18
+  ? console.log('pode tirar carteira de motorista!')
+  : console.log('Ainda não pode tirar carteira de motorista')
